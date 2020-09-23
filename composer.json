@@ -1,0 +1,19 @@
+{
+	"name": "cmsgears/widget-mapper",
+	"description": "The Mapper Widget for CMSGears provides options to map a single column.",
+	"homepage": "https://www.cmsgears.org",
+	"type": "package",
+	"keywords": [ "yii2", "cmsgears", "widget", "mapper" ],
+	"license": "GPL-3.0-or-later",
+	"support": {
+		"resources": "https://www.cmsgears.org/"
+	},
+	"autoload": {
+		"psr-4": {
+			"cmsgears\\widgets\\mapper\\": ""
+		}
+	},
+    "require": {
+        "cmsgears/module-core": "*"
+    }
+}
